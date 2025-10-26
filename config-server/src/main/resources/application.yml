@@ -1,0 +1,12 @@
+server:
+  port: 8888
+spring:
+  application:
+    name: config-server
+cloud:
+  config:
+    server:
+      git:
+        uri: https://github.com/hiba-hmadad12/Config-Server1.git
+        default-label: main
+        clone-on-start: true
